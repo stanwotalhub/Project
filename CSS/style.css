@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    }
+    body{
+        background-image:linear-gradient(to bottom right,#032a31,#1f7783);
+    }
+    div.ab{
+        background-color: #021C1E;
+        border:none;
+        border-radius: 25px;
+        width: 325px;
+        height:500x;
+    }
+
+    input{
+        outline: none;
+        font-family: Bell MT;
+        font-size: 20px;
+        border: none;
+        border-radius: 10px;
+        padding:10px;
+    }
+    input:hover{
+        border: none;
+        border-radius: 10px;
+    }
+    
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button{
+     -webkit-appearance: none;
+     margin: 0;
+    }
+
+    span.calc{
+        margin-top: 25px;
+        color: white;
+        font-size: 40px;
+        font-family: Bell MT;
+        
+    }
+    select{
+        width: 150px;
+        height: 50px;
+        font-size:25px;
+        font-family: Bell MT;
+        border: none;
+        border-radius: 25px;
+        padding: 10px;
+        margin: 10px;
+
+    }
+    button.rslt-btn{
+        outline: none;
+        color: white;
+        font-size: 30px; 
+        font-family: Bell MT; 
+        color: black;
+        border: none;
+        border-radius: 15px;
+        padding: 10px;
+        cursor: hand;
+    }
+
+    p
+    {
+    background-color: white;
+    color: red;
+    font-size: 25px;
+    font-family: Bell MT;
+    text-align: center;
+    width: 315px;
+    height: auto;
+    margin: 5px;
+    border: none;
+    border-radius: 15px;
+    }
+
+    p.other
+    {
+    background-color: rgb(255, 251, 0);
+    color:rgb(0, 0, 0);
+    font-size: 25px;
+    
+    font-family: Bell MT;
+    text-align: left;
+    width: 315px;
+    height: auto;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    }
+
+    select.ptrn{
+        width: 200px;
+        height: 50px;
+        font-size:25px;
+        font-family: Bell MT;
+        border: none;
+        border-radius: 25px;
+        padding: 10px;
+        margin: 10px;
+
+    }

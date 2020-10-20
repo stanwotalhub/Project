@@ -1,0 +1,213 @@
+<html>
+    <head>
+        <title>
+            For Loop
+        </title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+    <body>
+        <center>
+
+        <!-- Number is Prime or Not -->
+
+        <div class="ab" style="margin-top: 7.5ex;"><br>
+            <span class=" calc">Prime Or Not</span><br><br>
+            <hr style="margin-bottom: 20px;">
+            <input id="value1" type="number" placeholder="Enter Number"><br><br>
+            <hr style="margin-left:10px;margin-right: 10px; margin-bottom: 10px;">
+            <button onclick="PrimeOrNot()" class="rslt-btn">
+            Check
+            </button><br><br>
+            <input id="res" readonly />
+            <script src="./index.js"></script><br><br>
+        </div>
+
+        
+
+        <!-- List Of Odd and Even Numbers -->
+
+        <hr style="margin: 30px;">
+        <div class="ab" ><br>
+            <span class=" calc">List Of Odd and Even Numbers</span><br><br>
+            <hr style="margin-bottom: 20px;">
+
+            <input id="OE" type="number" placeholder="From"><br><br>
+            <input id="OE1" type="number" placeholder="To"><br><br>
+            <select id="options">
+                <option>Select</option>
+                <option value="Odd">Odd</option>
+                <option value="Even">Even</option>
+            </select>
+            <hr style="margin-left:10px;margin-right: 10px; margin-bottom: 10px;">
+            <button onclick="OddEven()" class="rslt-btn">
+            Find
+            </button><br><br>
+            <p id="OddEvenresult"></p>            
+            <script src="./index.js"></script><br><br>
+        </div>   
+
+        <!-- Sum Of N Numbers -->
+
+        <hr style="margin: 30px;">
+        <div class="ab" ><br>
+            <span class=" calc">Sum Of N Numbers</span><br><br>
+            <hr style="margin-bottom: 20px;">
+
+            <input id="NN" type="number" placeholder="Enter Number"><br><br>
+            
+            <hr style="margin-left:10px;margin-right: 10px; margin-bottom: 10px;">
+            <button onclick="NaturalNm()" class="rslt-btn">
+            Result
+            </button><br><br>
+            <p id="SumNN"></p>            
+            <script src="./index.js"></script><br><br>
+        </div>
+
+        <!-- Reverse of a Number -->
+
+        <hr style="margin: 30px;">
+        <div class="ab" ><br>
+            <span class=" calc">Reverse of a Number</span><br><br>
+            <hr style="margin-bottom: 20px;">
+
+            <input id="RN" type="number" placeholder="Enter Number"><br><br>
+            
+            <hr style="margin-left:10px;margin-right: 10px; margin-bottom: 10px;">
+            <button onclick="reverseNo()" class="rslt-btn">
+            Result
+            </button><br><br>
+            <p id="RevNo"></p>            
+            <script src="./index.js"></script><br><br>
+        </div>
+
+        <!-- Palindrome or Not -->
+
+        <hr style="margin: 30px;">
+        <div class="ab" ><br>
+            <span class=" calc">Palindrome or Not</span><br><br>
+            <hr style="margin-bottom: 20px;">
+
+            <input id="PalindromeNo" type="number" placeholder="Enter Number"><br><br>
+            
+            <hr style="margin-left:10px;margin-right: 10px; margin-bottom: 10px;">
+            <button onclick="PoN()" class="rslt-btn">
+            Result
+            </button><br><br>
+            <p id="PalindromeCheck"></p>            
+            <script src="./index.js"></script><br><br>
+        </div>
+
+        <!-- Sum Of Digits in a Number -->
+
+        <hr style="margin: 30px;">
+        <div class="ab" ><br>
+            <span class=" calc">Sum Of Digits in a Number</span><br><br>
+            <hr style="margin-bottom: 20px;">
+
+            <input id="SumNumber" type="number" placeholder="Enter Number"><br><br>
+            
+            <hr style="margin-left:10px;margin-right: 10px; margin-bottom: 10px;">
+            <button onclick="SumOfDigit()" class="rslt-btn">
+            Result
+            </button><br><br>
+            <p id="SumNumberResult"></p>            
+            <script src="./index.js"></script><br><br>
+        </div>
+
+
+        <!-- Fibonacci Series -->
+
+        <hr style="margin: 30px;">
+        <div class="ab" ><br>
+            <span class=" calc">Fibonacci Series</span><br><br>
+            <hr style="margin-bottom: 20px;">
+
+            <input id="FS" type="number" placeholder="Enter Number of Terms"><br><br>       
+            <hr style="margin-left:10px;margin-right: 10px; margin-bottom: 10px;">
+            <button onclick="FibSeries()" class="rslt-btn">
+            Result
+            </button><br><br>
+            <p  id="FSresult"></p>
+
+            <script src="./index.js"></script><br><br>
+        </div>
+    
+        
+        <!-- Outer-Inner Loop -->
+
+        <hr style="margin: 30px;">
+        <div class="ab" ><br>
+            <span class=" calc">Outer-Inner Loop</span><br><br>
+            <hr style="margin-bottom: 20px;">
+
+            <input id="numberx" type="number" placeholder="Enter Number of Terms"><br><br>       
+            <hr style="margin-left:10px;margin-right: 10px; margin-bottom: 10px;">
+            <button onclick="OuterInner()" class="rslt-btn">
+            Result
+            </button><br><br>
+            <p class="other" id="rslt"></p>
+
+            <script src="./index.js"></script><br><br>
+        </div>
+
+
+        <!-- Patterns -->
+
+        <hr style="margin: 30px;">
+        <div class="ab" ><br>
+            <span class=" calc">Patterns</span><br><br>
+            <hr style="margin-bottom: 20px;">
+            <select class="ptrn" id="SelectPattern">
+                <option>Select</option>
+                
+                <option value="Row-Pattern">Row Pattern</option>
+                <option value="Col-Pattern">Column Pattern</option>
+                <option value="Rev-Pattern">Reverse Pattern</option>
+                <option value="Square-Pattern">Square Pattern</option>
+                <option value="Inv-Pattern">Inverted Pattern</option>
+                <option value="Star-Pattern">Star Pattern</option>
+                <option value="Mirror-Pattern">Mirror Pattern</option>
+                <option value="Half-Diamond-Pattern">Half Diamond Pattern</option>
+                <option value="Full-Diamond-Pattern">Full Diamond Pattern</option>
+
+            </select>
+            <input id="numbery" type="number" placeholder="Enter Number of Terms"><br><br>       
+            <hr style="margin-left:10px;margin-right: 10px; margin-bottom: 10px;">
+            <button onclick="patterns()" class="rslt-btn">
+            Result
+            </button>
+            <p class="other" id="patt"></p>
+
+            <script src="./index.js"></script><br><br>
+        </div>
+
+        <!-- Number Converter -->
+
+        <hr style="margin: 30px;">
+        <div class="ab" ><br>
+            <span class=" calc">Number Convert</span><br><br>
+            <hr style="margin-bottom: 20px;">
+
+            <input id="Conv-Num" onkeyup="Convert()" type="number" placeholder="Enter Number"><br><br>
+            <hr style="margin-left:10px;margin-right: 10px; margin-bottom: 10px;"><br><br>
+            <p class="other" id="NumConv1"></p>
+            <p class="other" id="NumConv"></p>
+            <script src="./index.js"></script><br><br>
+        </div>
+
+         <!-- this Learning -->
+
+         <hr style="margin: 30px;">
+         <div class="ab" ><br>
+             <span class=" calc">this Learning</span><br><br>
+             <hr style="margin-bottom: 20px;">
+ 
+             <!-- <input id="test" onkeyup="learn()" type="number" placeholder="Enter Number"><br><br> -->
+             <hr style="margin-left:10px;margin-right: 10px; margin-bottom: 10px;"><br><br>
+             <button class="rslt-btn" onclick="learn()">Click Me</button>
+             <p class="other" id="learn1"></p>
+             <script src="./index.js"></script><br><br>
+         </div>
+   </center>
+    </body>
+</html>
