@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Arrays</title>
+</head>
+<body>
+<center>
+    <p class="head">Add/Delete Data</p>
+    <input id="name" type="text" pattern=".{3,}" title="Three or More Characters" onkeyup="ClrError()"/>
+    <p class="error" id="nameError"></p>
+    <input id="hiddenInput" type="hidden" ">
+    <button type="submit" class="mainBtn" id="sbmtBtn" onclick="AddData()">Submit</button>
+    <button type="submit" class="mainBtn" id="updtBtn" style="display: none;" onclick="UpdateData()">Update</button>
+    <p class="data" id="showData" "></p>
+    <script src="./script.js"></script>
+</center>
+</body>
+</html>
